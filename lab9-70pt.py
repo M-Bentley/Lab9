@@ -12,3 +12,9 @@
 # Accept user input 
 # Calculate fahrenheit
 # Output answer
+
+print 'What temperature do you wish to convert to Fahrenheit?'
+userInput = float(raw_input())
+
+output = float(((userInput * 9)/5)+32)
+print output,"F"
